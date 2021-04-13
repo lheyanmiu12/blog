@@ -16,7 +16,7 @@
 			"port": 22,
 			"ref": "origin/master",
 			"repo": "git@gitee.com:watasi/blog.git",
-			"path": "/www/blog",
+			"path": "/www/blog/production",
 			"ssh_options": "StrictHostKeyChecking=no",
 			"pre-deploy-local": "echo 'Deploy Done!'",
 			"env": {
