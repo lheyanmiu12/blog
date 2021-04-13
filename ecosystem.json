@@ -11,11 +11,11 @@
 	}],
 	"deploy": {
 		"production": {
-			"user": "ubuntu",
+			"user": "watasi",
 			"host": ["118.25.49.61"],
 			"port": 22,
 			"ref": "origin/master",
-			"repo": "git@gitee.com:watasi/blog.git",
+			"repo": "https://gitee.com/watasi/blog.git",
 			"path": "/www/blog/production",
 			"ssh_options": "StrictHostKeyChecking=no",
 			"pre-deploy-local": "echo 'Deploy Done!'",
