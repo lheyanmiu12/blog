@@ -13,6 +13,7 @@
 		"production": {
 			"user": "watasi",
 			"host": ["118.25.49.61"],
+			"port": "39999",
 			"ref": "origin/master",
 			"repo": "git@gitee.com:watasi/blog.git",
 			"path": "/www/blog/production",
